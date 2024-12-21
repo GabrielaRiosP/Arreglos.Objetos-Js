@@ -1,0 +1,18 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+    
+#propiedadesAlquilerContainer {
+    gap: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 50px;
+}

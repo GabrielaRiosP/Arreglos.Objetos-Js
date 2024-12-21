@@ -1,0 +1,27 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+#contenedorPropiedades {
+padding: 20px;
+display: flex;
+flex-direction: column;
+}
+
+#propiedadesVentasContainer {
+    gap: 25px;
+    justify-content: center;
+}
+
+#propiedadesAlquilerContainer {
+    gap: 25px;
+    justify-content: center;
+}
